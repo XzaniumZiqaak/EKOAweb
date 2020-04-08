@@ -21,22 +21,25 @@
 
 		<style>
 			/* The blue in the logo is #192d67 */
+			/* #4974a5 is nice contrast color relative to it */
+			/* Useful site https://color-hex.org/color/192d67 */
+			/* Useful site https://color-hex.org/color/4974a5 */
 
 			/* Beginning of the upper-menu block */
 			.upper-menu {
 				width: 100%;
 				height: 44px;
 				background: #4974a5;
-				position: absolute;
+				position: fixed;
 				top: 0;
 				left: 0;
+				z-index: 1;
 				padding: 2px;
 				white-space: nowrap;
 			}
 
 			.upper-menu-buttons {
 				position: relative;
-				left: 5px;
 				top: 3px;
 				color: white;
 				height: 100%;
@@ -76,12 +79,13 @@
 				margin-right: auto;
 				max-width: 1000px;
 				color: #333333;
-				font-size: 0.95em;
+				font-size: 14px;
 			}
 
 			.content > h1 {
 				margin-bottom: 16px;
 				color: #444444;
+				font-size: 
 			}
 
 			.content > p {
@@ -106,6 +110,8 @@
 		</div>
 		<div class="content-wrapper">
 			<div class="content">
+				<img src="img/ekoa.png" style="width: 430px; float: right"></img>
+
 				<h1>Erudite Kindred's Organized Association</h1>
 
 				<p>Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text. Example content text.</p>
